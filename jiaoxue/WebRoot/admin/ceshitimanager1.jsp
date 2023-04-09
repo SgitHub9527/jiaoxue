@@ -58,13 +58,13 @@
 		<h2>测试题管理</h2>
 		<div class="description">
 			<a
-				href="${pageContext.request.contextPath}/admin/ceshitimanager.do?actiontype=load&seedid=102">新建测试题</a>
+				href="${pageContext.request.contextPath}/admin/ceshitimanager1.do?actiontype=load&seedid=102">新建测试题</a>
 		</div>
 	</div>
 	<!-- 搜索控件开始 -->
 	<div class="search-options">
 		<form id="searchForm"
-			action="${pageContext.request.contextPath}/admin/ceshitimanager.do"
+			action="${pageContext.request.contextPath}/admin/ceshitimanager1.do"
 			method="post">
 			<table cellspacing="0" width="100%">
 				<tbody>
@@ -138,7 +138,7 @@
 				<td>
 				
 				  <a class="orange-href"
-					href="${pageContext.request.contextPath}/admin/ceshitimanager.do?actiontype=load&id=<%=temceshiti.getId()%>">修改</a>
+					href="${pageContext.request.contextPath}/admin/ceshitimanager1.do?actiontype=load&id=<%=temceshiti.getId()%>">修改</a>
 					
 				</td>
 			</tr>

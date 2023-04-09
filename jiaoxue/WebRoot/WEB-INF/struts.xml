@@ -75,7 +75,10 @@
         
 		 <action name="ceshitimanager" class="com.daowen.action.CeshitiAction">
 		</action>
-         
+          <action name="ceshitimanager1" class="com.daowen.action.CeshitiAction">
+		</action> 
+		<action name="ceshitimanager2" class="com.daowen.action.CeshitiAction">
+		</action>
 		<action name="kechengmanager" class="com.daowen.action.KechengAction">
 		</action>
 

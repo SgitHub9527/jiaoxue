@@ -45,7 +45,8 @@ public class CeshitiAction extends PageActionBase {
 		String choicec = request.getParameter("choicec");
 		String choiced = request.getParameter("choiced");
 		String kmid = request.getParameter("kmid");
-		String daan = request.getParameter("daan");
+		String daans = request.getParameter("daan");
+		System.out.println(daans.toString()+"sadddddddddd");
 		String kemu = request.getParameter("kemu");
 		SimpleDateFormat sdfceshiti = new SimpleDateFormat("yyyy-MM-dd");
 		Ceshiti ceshiti = new Ceshiti();
@@ -54,11 +55,11 @@ public class CeshitiAction extends PageActionBase {
 		ceshiti.setChoiceb(choiceb == null ? "" : choiceb);
 		ceshiti.setChoicec(choicec == null ? "" : choicec);
 		ceshiti.setChoiced(choiced == null ? "" : choiced);
-		ceshiti.setDaan(daan == null ? "" : daan);
+		ceshiti.setDaan(daans == null ? "" : daans);
 		ceshiti.setKmid(kmid == null ? 0 : Integer.parseInt(kmid));
 		ceshiti.setKemu(kemu);
 		DALBase.save(ceshiti);
-
+		System.out.println("asss------");
 		if (forwardurl == null) {
 			forwardurl = "/admin/ceshitimanager.do?actiontype=get";
 		}

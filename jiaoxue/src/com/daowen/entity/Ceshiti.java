@@ -66,6 +66,16 @@ public class Ceshiti {
 	public void setChoiced(String choiced) {
 		this.choiced = choiced;
 	}
+	
+	private String choicee;
+
+	public String getChoicee() {
+		return choicee;
+	}
+
+	public void setChoicee(String choicee) {
+		this.choicee = choicee;	
+	}
 
 	private String daan;
 
@@ -96,4 +106,6 @@ public class Ceshiti {
 	public void setKmid(int kmid) {
 		this.kmid = kmid;
 	}
+
+	
 }

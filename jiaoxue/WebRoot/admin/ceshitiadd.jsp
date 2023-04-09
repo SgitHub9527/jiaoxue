@@ -137,7 +137,7 @@
 		<h2>测试题管理->新建多选测试题</h2>
 		<div class="description"></div>
 	</div>
-	<form name="ceshitiform" method="post"
+	<form name="ceshitiform1" method="post"
 		action="${pageContext.request.contextPath}/admin/ceshitimanager1.do"
 		id="ceshitiForm">
 		<table class="grid" cellspacing="1" width="100%">
@@ -219,7 +219,7 @@
 			<tr>
 			   <td colspan="2">
 			      
-			        <input type="submit" value="提交" id="Button2" class="orange-button" />
+			        <input type="submit" value="提交" id="Button1" class="orange-button" />
 		
 			   
 			   </td>
@@ -232,7 +232,7 @@
 		<h2>测试题管理->新建判断测试题</h2>
 		<div class="description"></div>
 	</div>
-	<form name="ceshitiform" method="post"
+	<form name="ceshitiform2" method="post"
 		action="${pageContext.request.contextPath}/admin/ceshitimanager2.do"
 		id="ceshitiForm">
 		<table class="grid" cellspacing="1" width="100%">
@@ -277,9 +277,9 @@
 			<tr>
 				<td align="right">答案:</td>
 				<td><input name="daan"
-					validate="{required:true,messages:{required:'请输入答案'}}" value="A"
+					validate="{required:true,messages:{required:'请选择选项'}}" value="A"
 					checked="checked" type="radio" />A <input name="daan"
-					validate="{required:true,messages:{required:'请输入答案'}}" value="B"
+					validate="{required:true,messages:{required:'请选择选项'}}" value="B"
 					type="radio" />B</td>
 			</tr>
 			
@@ -287,7 +287,7 @@
 			<tr>
 			   <td colspan="2">
 			      
-			        <input type="submit" value="提交" id="Button3" class="orange-button" />
+			        <input type="submit" value="提交" id="Button2" class="orange-button" />
 		
 			   
 			   </td>
